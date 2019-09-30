@@ -1,4 +1,6 @@
-# ElixirGraphqlApp
+## Server Part
+
+Install postgres and configure what is needed in `/config`.
 
 To start your Phoenix server:
 
@@ -6,9 +8,19 @@ To start your Phoenix server:
 - Create and migrate your database with `mix ecto.setup`
 - Start Phoenix endpoint with `mix phx.server`
 
+
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+
+## Client Part
+
+```sh
+  cd web
+  yarn i && yarn start
+```
+
+Visit [`localhost:3000`](http://localhost:3000) from your browser to see the web application.
 
 ## Learn more
 
@@ -18,11 +30,5 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 - Mailing list: http://groups.google.com/group/phoenix-talk
 - Source: https://github.com/phoenixframework/phoenix
 
-## Web App
-
-```sh
-  cd web
-  yarn i && yarn start
-```
-
-Visit [`localhost:3000`](http://localhost:3000) from your browser to see the web application.
+## References
+* [https://www.viget.com/articles/getting-started-with-graphql-phoenix-and-react/](https://www.viget.com/articles/getting-started-with-graphql-phoenix-and-react/)
